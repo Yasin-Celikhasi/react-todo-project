@@ -17,7 +17,7 @@ function App() {
 
   // useEffect
   useEffect(() => {
-    // console.log("selamm")
+    // console.log("hi")
     filterHandler();
     saveLocalTodos();
   }, [todos, status]);
